@@ -1,10 +1,12 @@
 import { Parallax } from "react-scroll-parallax";
 import { FaJava, FaPython, FaReact } from "react-icons/fa6";
 import { FaGitSquare } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { SiSolidity,SiMongodb } from "react-icons/si";
+import { GiPinata } from "react-icons/gi";
+import { RiNextjsFill } from "react-icons/ri";
 import { SiSpringboot, SiTwilio, SiMysql, SiFlask } from "react-icons/si";
 import Skills from "./Skills";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub,FaNodeJs} from "react-icons/fa";
 import { useSelector } from "react-redux";
 import "../../../src/app/globals.css";
 
@@ -13,55 +15,55 @@ const Projects = () => {
   const isDarkMode = theme === "dark";
   const projects = [
     {
-      title: "Restaurant Management System",
+      title: "Decentralized Voting App (Dapp",
       tag: "Full-stack App",
       description:
-        "Developed a web-based system to streamline restaurant operations, reducing order processing time by 30%. Integrated user-friendly interfaces with robust backend services, ensuring seamless user experience and reliable data handling.",
-      technologies: [SiSpringboot, FaReact, SiMysql, FaGitSquare],
+        "Developed a decentralized voting platform using Next.js and blockchain technology, enabling secure, transparent, and tamper-proof elections. Implemented user-friendly interfaces with robust smart contract integration, improving voting accuracy and system reliability.",
+      technologies: [RiNextjsFill, SiSolidity,GiPinata, FaGitSquare],
       colorFrom: "from-blue-900/50",
       colorTo: "to-emerald-900/50",
       align: "left",
-      link: "https://github.com/artgoblin/restaurant_managment_system_front_end",
+      link: "https://github.com/benherr/MAINPROJECT/tree/747d05c382dbe31d2a0098091ccadc1c0b38350a/voting-dapp",
     },
     {
-      title: "WhatsApp Bot",
-      tag: "Automation Tool",
+      title: "Campus-Care",
+      tag: "full-stack-App",
       description:
-        "Created a bot to provide COVID-19 information and entertainment features, increasing user engagement by 40%. Enhanced user engagement by incorporating interactive elements like trivia, jokes, and memes.",
-      technologies: [FaPython, SiFlask, SiTwilio, FaGitSquare],
+        "Developed a MERN-based campus infrastructure management platform with issue reporting, real-time tracking, complaint categorization, role-based modules, status updates, and streamlined communication between students, faculty, staff, and maintenance teams",
+      technologies: [FaReact,SiMongodb, FaNodeJs, FaGitSquare],
       colorFrom: "from-purple-900/50",
       colorTo: "to-red-900/50",
       align: "right",
-      link: "https://github.com/artgoblin/botwhatsapp",
+      link: "https://github.com/benherr/complaint-portal-MINI",
     },
-    {
-      title: "Blogging Platform",
-      tag: "Full-stack App",
-      description:
-        "A responsive blogging platform where users can register, login, and share their thoughts and feelings. Implemented secure authentication and cloud-based media storage for seamless content sharing.",
-      technologies: [
-        FaJava,
-        SiSpringboot,
-        FaReact,
-        BiLogoPostgresql,
-        FaGitSquare,
-      ],
-      colorFrom: "from-yellow-900/50",
-      colorTo: "to-pink-900/50",
-      align: "left",
-      link: "https://github.com/artgoblin/blogging_site",
-    },
-    {
-      title: "AI Powered Music Player",
-      tag: "Desktop Application",
-      description:
-        "Developed a desktop application that uses AI voice assisted playback system which helps to play music based on user preferences, enhancing the music discovery experience.",
-      technologies: [FaPython, FaGitSquare],
-      colorFrom: "from-green-900/50",
-      colorTo: "to-blue-900/50",
-      align: "right",
-      link: "https://github.com/artgoblin/Voice-assisted-emotion-based-musicplayer",
-    },
+    // {
+    //   title: "Blogging Platform",
+    //   tag: "Full-stack App",
+    //   description:
+    //     "A responsive blogging platform where users can register, login, and share their thoughts and feelings. Implemented secure authentication and cloud-based media storage for seamless content sharing.",
+    //   technologies: [
+    //     FaJava,
+    //     SiSpringboot,
+    //     FaReact,
+    //     BiLogoPostgresql,
+    //     FaGitSquare,
+    //   ],
+    //   colorFrom: "from-yellow-900/50",
+    //   colorTo: "to-pink-900/50",
+    //   align: "left",
+    //   link: "https://github.com/artgoblin/blogging_site",
+    // },
+    // {
+    //   title: "AI Powered Music Player",
+    //   tag: "Desktop Application",
+    //   description:
+    //     "Developed a desktop application that uses AI voice assisted playback system which helps to play music based on user preferences, enhancing the music discovery experience.",
+    //   technologies: [FaPython, FaGitSquare],
+    //   colorFrom: "from-green-900/50",
+    //   colorTo: "to-blue-900/50",
+    //   align: "right",
+    //   link: "https://github.com/artgoblin/Voice-assisted-emotion-based-musicplayer",
+    // },
   ];
 
   return (
@@ -139,7 +141,7 @@ const Projects = () => {
       <div className="flex justify-center">
         <a
           className="p-3 sm:p-4 mt-8 sm:mt-16 bg-gradient-to-r from-blue-500/80 to-green-500/80 text-white-800 hover:scale-[1.05] rounded-full font-medium hover:bg-blue-900 transition-all hover:text-black transition duration-300 flex items-center gap-2 text-sm sm:text-base"
-          href={"https://github.com/artgoblin"}
+          href={"https://github.com/benherr"}
           target="_blank"
           rel="noopener noreferrer"
         >

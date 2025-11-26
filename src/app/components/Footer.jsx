@@ -59,22 +59,22 @@ const Footer = () => {
       >
         <div className="flex justify-center items-center gap-4 mb-10 text-2xl">
           <SocialLink
-            href="https://www.instagram.com/artgoblin_3000/"
+            href="https://www.instagram.com/benher._/"
             Icon={FaInstagramSquare}
           />
-          <SocialLink href="https://github.com/artgoblin" Icon={BsGithub} />
+          <SocialLink href="https://github.com/benherr" Icon={BsGithub} />
           <SocialLink
-            href="https://www.linkedin.com/in/satabda-das-29620a190/"
+            href="https://www.linkedin.com/in/benher-basheer-371347377/"
             Icon={AiFillLinkedin}
           />
-          <SocialLink
+          {/* <SocialLink
             href="https://leetcode.com/u/artgoblin3000/"
             Icon={TbBrandLeetcode}
-          />
-          <SocialLink
+          /> */}
+          {/* <SocialLink
             href="https://www.facebook.com/satabda.das.980"
             Icon={FaFacebookF}
-          />
+          /> */}
         </div>
         <button
           className="text-sm px-4 py-2 rounded-full border border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white transition-all duration-300 mb-4"
@@ -82,7 +82,7 @@ const Footer = () => {
         >
           Contact Me
         </button>
-        <p className="text-1xl text-red-300/60">
+        {/* <p className="text-1xl text-red-300/60">
           <strong>Factinator</strong>
         </p>
         <div className="flex justify-center items-center p-10 max-h-[100px] overflow-visible">
@@ -104,16 +104,16 @@ const Footer = () => {
           >
             <IoMdRefreshCircle />
           </motion.div>
-        </button>
+        </button> */}
         <p className="mt-8 text-xs text-white/40">
           &copy; 2025{" "}
           <a
-            href="https://www.instagram.com/artgoblin_3000/"
+            href="https://www.instagram.com/benher._/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline hover:text-white"
           >
-            artgoblin_3000
+            Benher
           </a>
           . All rights reserved.
         </p>

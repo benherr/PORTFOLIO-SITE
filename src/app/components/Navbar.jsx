@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 const Navbar = () => {
   const theme = useSelector((state) => state.theme.color);
   const isDarkMode = theme === "dark";
-  const TABS = ["Home", "About", "Works", "Experience", "Contact"];
+  const TABS = ["Home", "About", "Works", "Contact"];
 
   const handleNavClick = (tab) => {
     const section = document.getElementById(tab.toLowerCase());
@@ -50,7 +50,7 @@ const Navbar = () => {
               ease: "linear",
             }}
             onClick={() => {
-               window.open("/Resume.pdf", "_blank");}
+               window.open("/Benher-Basheer-Resume.pdf", "_blank");}
             }
             className="hover:scale-[1.05] cursor-pointer p-1"
           >

@@ -17,11 +17,11 @@ const About = () => {
         <div className={`flex flex-col md:flex-row justify-center items-center gap-6 text-lg font-medium text-center  ${isDarkMode ? "text-white" : "text-black"} mb-10`}>
           <div className="flex items-center gap-2">
             <CiLocationOn size={24} />
-            <span>Kolkata, India</span>
+            <span>Kochi, India</span>
           </div>
           <div className="flex items-center gap-2">
             <FaGraduationCap size={24} />
-            <span>B.Tech in Electronics and Communication Engineering</span>
+            <span>Master of Computer Applications</span>
           </div>
         </div>
 

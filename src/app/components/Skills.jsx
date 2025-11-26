@@ -75,22 +75,22 @@ const Skills = () => {
         className="text-5xl text-[#0db7ed] hover:scale-110 transition"
         title="Docker"
       />
-      <FaRegSnowflake
+      {/* <FaRegSnowflake
         className="text-5xl text-[#56b9ff] hover:scale-110 transition"
         title="Snowflake"
-      />
+      /> */}
       <TbBrandCpp
         className="text-5xl text-[#00599C] hover:scale-110 transition"
         title="C++"
       />
-      <SiApollographql
+      {/* <SiApollographql
         className="text-5xl text-[#311C87] hover:scale-110 transition"
         title="Apollo GraphQL"
-      />
-      <SiMysql
+      /> */}
+      {/* <SiMysql
         className="text-5xl text-[#00758f] hover:scale-110 transition"
         title="MySQL"
-      />
+      /> */}
       <RiNextjsFill
         className={`text-5xl ${isDarkMode ? "text-white" : "text-black"} hover:scale-110 transition`}
         title="Next.js"

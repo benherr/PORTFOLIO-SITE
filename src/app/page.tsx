@@ -7,7 +7,7 @@ import LandingPanel from "../app/components/LandingPanel";
 import About from "../app/components/About";
 import Theme from "../app/components/Theme";
 import Projects from "../app/components/Projects";
-import Experience from "../app/components/Experience";
+// import Experience from "../app/components/Experience";
 import Footer from "../app/components/Footer";
 import SectionWrapper from "../app/SectionWrapper";
 import ContactForm from "../app/components/ContactForm";
@@ -97,9 +97,9 @@ export default function Home() {
           <SectionWrapper id="works">
             <Projects />
           </SectionWrapper>
-          <SectionWrapper id="experience">
-            <Experience />
-          </SectionWrapper>
+          {/* <SectionWrapper id="experience">
+            <Experience /> */}
+          {/* </SectionWrapper> */}
           <Footer />
         </div>
         <Theme HandleThemeChange={HandleThemeChange} isDarkMode={isDarkMode} />
