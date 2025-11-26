@@ -15,7 +15,7 @@ const Projects = () => {
   const isDarkMode = theme === "dark";
   const projects = [
     {
-      title: "Decentralized Voting App (Dapp",
+      title: "Decentralized Voting App (Dapp)",
       tag: "Full-stack App",
       description:
         "Developed a decentralized voting platform using Next.js and blockchain technology, enabling secure, transparent, and tamper-proof elections. Implemented user-friendly interfaces with robust smart contract integration, improving voting accuracy and system reliability.",
@@ -36,34 +36,7 @@ const Projects = () => {
       align: "right",
       link: "https://github.com/benherr/complaint-portal-MINI",
     },
-    // {
-    //   title: "Blogging Platform",
-    //   tag: "Full-stack App",
-    //   description:
-    //     "A responsive blogging platform where users can register, login, and share their thoughts and feelings. Implemented secure authentication and cloud-based media storage for seamless content sharing.",
-    //   technologies: [
-    //     FaJava,
-    //     SiSpringboot,
-    //     FaReact,
-    //     BiLogoPostgresql,
-    //     FaGitSquare,
-    //   ],
-    //   colorFrom: "from-yellow-900/50",
-    //   colorTo: "to-pink-900/50",
-    //   align: "left",
-    //   link: "https://github.com/artgoblin/blogging_site",
-    // },
-    // {
-    //   title: "AI Powered Music Player",
-    //   tag: "Desktop Application",
-    //   description:
-    //     "Developed a desktop application that uses AI voice assisted playback system which helps to play music based on user preferences, enhancing the music discovery experience.",
-    //   technologies: [FaPython, FaGitSquare],
-    //   colorFrom: "from-green-900/50",
-    //   colorTo: "to-blue-900/50",
-    //   align: "right",
-    //   link: "https://github.com/artgoblin/Voice-assisted-emotion-based-musicplayer",
-    // },
+   
   ];
 
   return (
