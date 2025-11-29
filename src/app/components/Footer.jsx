@@ -82,29 +82,7 @@ const Footer = () => {
         >
           Contact Me
         </button>
-        {/* <p className="text-1xl text-red-300/60">
-          <strong>Factinator</strong>
-        </p>
-        <div className="flex justify-center items-center p-10 max-h-[100px] overflow-visible">
-          <p className="text-lg italic mt-2 text-purple-300 max-w-[600px] text-center max-h-[100px] scrollbar-thin scrollbar-thumb-purple-400 scrollbar-track-transparent overflow-y-auto">
-            {fact}
-          </p>
-        </div>
-        <button
-          onClick={fetchFact}
-          className="mt-4 text-sm px-4 py-2 rounded-full border border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white transition-all duration-300"
-        >
-          New Fact
-          <motion.div
-            initial={{ rotate: 0 }}
-            animate={{ rotate: 360 }}
-            transition={{ duration: 1, ease: "linear" }}
-            className="inline-block ml-2 my-[-2px]"
-            key={fact}
-          >
-            <IoMdRefreshCircle />
-          </motion.div>
-        </button> */}
+
         <p className="mt-8 text-xs text-white/40">
           &copy; 2025{" "}
           <a

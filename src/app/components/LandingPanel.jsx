@@ -26,7 +26,7 @@ const LandingPanel = () => {
       <h1 className={`z-10 text-5xl md:text-7xl  ${isDarkMode ? "text-white" : "text-black"} font-extrabold leading-tight tracking-wide`}>
         Hi, I'm{" "}
         <span className="text-red-500 drop-shadow-[0_0_10px_rgba(255,0,0,0.6)]">
-          Benher
+          Benher Basheer
         </span>
       </h1>
 
