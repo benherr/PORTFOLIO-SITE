@@ -23,7 +23,7 @@ const Projects = () => {
       colorFrom: "from-blue-900/50",
       colorTo: "to-emerald-900/50",
       align: "left",
-      link: "https://github.com/benherr/MAINPROJECT/tree/747d05c382dbe31d2a0098091ccadc1c0b38350a/voting-dapp",
+      link: "https://github.com/benherr/D-voting-app/tree/main/voting-dapp",
     },
     {
       title: "Campus-Care",
