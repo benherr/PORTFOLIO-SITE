@@ -79,7 +79,7 @@ const LandingPanel = () => {
         <Magnetic>
         <button
           className="z-10 px-6 py-3 bg-red-500 text-white rounded-lg font-medium hover:bg-red-600 transition duration-300 ease-in-out hover:shadow-[0_0_20px_rgba(255,0,0,0.5)]"
-          onClick={() => window.open("/Benher-Basheer-Resume.pdf", "_blank")}
+          onClick={() => window.open("/Benher-Basheer-CV.pdf", "_blank")}
           aria-label="View Resume"
         >
           Resume
